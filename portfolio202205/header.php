@@ -25,9 +25,9 @@
                     <li><a href="<?php echo home_url('/about'); ?>">About</a></li>
                     <li><a href="<?php echo home_url('/works'); ?>">Works</a></li>
 					<?php if(!is_front_page()) { ?>
-                    <li><a href="<?php echo home_url(); ?>/#service">Service</a></li>
+                    <li class="a_service"><a href="<?php echo home_url(); ?>/#service">Service</a></li>
 					<?php }else{ ?>
-					<li><a href="#service">Service</a></li>
+					<li class="a_service"><a href="#service">Service</a></li>
 					<?php } ?>
                     <li><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
                 </ul>
