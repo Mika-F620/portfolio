@@ -111,4 +111,9 @@
   }, 100);
 }
 });
+	//ハンバーガーメニューで「Service」をタップすると閉じる
+	$(".a_service a").on("click", function() {
+		$("#hamburger-navigation").removeClass("active");
+		$(".hamburger-menu").removeClass("active");
+		});
 }
